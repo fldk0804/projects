@@ -106,7 +106,7 @@ a:hover{
 
 .card {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-  max-width: 300px;
+  max-width: 170px;
   margin: auto;
   text-align: center;
   font-family: arial;
@@ -144,8 +144,8 @@ button:hover, a:hover {
 }
 
 .profileImg {
-  width: 180px;
-  height: 180px;
+  width: 120px;
+  height: 120px;
   display: block;
   margin-left: auto;
   margin-right: auto;
@@ -188,3 +188,66 @@ iframe {
 .hidden-spacer {
   height: 56px;
 }
+.title {
+  color:black;
+  font-size:60px;
+  font-weight: bold;
+  position: absolute;
+  right: 250px;
+  bottom: 400px;
+  text-align: center;
+}
+.subtitle {
+  color:whitesmoke;
+  position: absolute;
+  right: 250px;
+  bottom: 350px;
+  text-align: center;
+}
+
+@media only screen and (max-width : 480px) {
+  body{
+    width:100%;
+  }
+  iframe{
+    max-width: 300px;
+  }
+  .card{
+    width:60%;
+  }
+
+  ul.navbar-nav{
+    display:flex;
+    flex-direction:row;
+  }
+  .nav-item {
+    padding-left: 10px;
+  }
+  .navbar-brand {
+    padding-left: 10px;
+  }
+  .button4 {
+    /* font-size: 2px; */
+    height: 80px;
+    width: 240px;
+    right: 20%;
+    bottom: 40%;
+  }
+  .click {
+    font-size: 18px;
+  }
+  .title{
+    color:whitesmoke;
+    font-size: 40px;
+    right: 20%;
+    bottom: 80%;
+  }
+  .subtitle{
+    font-size: 16px;
+    right: 15%;
+    bottom: 70%;
+  }
+  /* <div class="navbar-collapse collapse show" id="navbar1" style=""> */
+}
+
+                  
