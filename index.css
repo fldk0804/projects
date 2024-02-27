@@ -10,7 +10,7 @@
   text-decoration: none;
   position: absolute;
   right: 270px;
-  bottom: 200px;
+  bottom: 300px;
   display: inline-block;
   outline: none;
   cursor: pointer;
@@ -194,14 +194,14 @@ iframe {
   font-weight: bold;
   position: absolute;
   right: 250px;
-  bottom: 400px;
+  bottom: 450px;
   text-align: center;
 }
 .subtitle {
   color:whitesmoke;
   position: absolute;
   right: 250px;
-  bottom: 350px;
+  bottom: 400px;
   text-align: center;
 }
 
