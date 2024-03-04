@@ -10,7 +10,7 @@
   text-decoration: none;
   position: absolute;
   right: 270px;
-  bottom: 300px;
+  bottom: 400px;
   display: inline-block;
   outline: none;
   cursor: pointer;
@@ -111,6 +111,7 @@ a:hover{
   text-align: center;
   font-family: arial;
   border-radius: 10px 10px 10px 10px;
+  margin-bottom:20px;
 }
 
 .title {
@@ -144,8 +145,9 @@ button:hover, a:hover {
 }
 
 .profileImg {
-  width: 120px;
-  height: 120px;
+  padding-top:15px;
+  width: 110px;
+  height: 130px;
   display: block;
   margin-left: auto;
   margin-right: auto;
@@ -194,14 +196,14 @@ iframe {
   font-weight: bold;
   position: absolute;
   right: 250px;
-  bottom: 450px;
+  bottom: 550px;
   text-align: center;
 }
 .subtitle {
   color:whitesmoke;
   position: absolute;
   right: 250px;
-  bottom: 400px;
+  bottom: 500px;
   text-align: center;
 }
 
